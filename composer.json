@@ -1,0 +1,12 @@
+{
+    "name": "linuslundahl/power-up",
+    "authors": [
+        {
+            "name": "Linus Lundahl",
+            "email": "lundahl.linus@gmail.com"
+        }
+    ],
+    "require": {
+        "mustache/mustache": "~2.7"
+    }
+}
