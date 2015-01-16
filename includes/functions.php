@@ -35,5 +35,5 @@ function get_template($template) {
 
   $template = (empty($template) ? '_start' : (file_exists($path . $template . '.mustache') ? $template : '_404'));
 
-  return $m->render($template, $variables);
+  return $m->render('_layout', array('template' => $m->render($template, $variables)));
 }

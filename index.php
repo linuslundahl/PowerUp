@@ -1,4 +1,5 @@
 <?php
+
   // Composer
   require 'vendor/autoload.php';
 
@@ -9,30 +10,10 @@
   ));
 
   // Variables
-  include('includes/variables.php');
+  $variables = json_decode(file_get_contents('includes/variables.json'));
 
   // Functions
-  include('includes/functions.php');
-?>
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Power Up</title>
+  require('includes/functions.php');
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link href="assets/stylesheets/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
-</head>
-<body>
-
-<div class="wrapper">
-<?php echo get_template(arg(1)); // Print template ?>
-</div>
-
-<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="assets/javascripts/plugins.js"></script>
-<script src="assets/javascripts/scripts.js"></script>
-
-</body>
-</html>
+  // Print template
+  echo get_template(arg(1));
