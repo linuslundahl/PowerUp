@@ -7,11 +7,8 @@
  * @return array/string
  */
 function arg($key = FALSE) {
-  global $folder;
 
-  $server = explode('?', $_SERVER['REQUEST_URI']);
-  $server = $server[0];
-  $path = $folder ? str_replace('/' . $folder, '', $server) : $server;
+  $path = str_replace(str_replace('index.php', '', $_SERVER['PHP_SELF']), '', $_SERVER['REQUEST_URI']);
   $path = isset($path) ? explode('/', trim($path, '/')) : array();
 
   if (is_numeric($key)) {
@@ -28,6 +25,8 @@ function arg($key = FALSE) {
  * @return array            An array of variables
  */
 function preprocess($template) {
+  global $path;
+
   $ret = array();
 
   $file = str_replace('templates/', 'preprocess/', $path) . $template . '.php';

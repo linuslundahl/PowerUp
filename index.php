@@ -18,12 +18,12 @@
   $args = arg();
 
   // JSON API
-  if (isset($args[2]) && $args[1] === 'api' && $args[2] !== '') {
+  if (isset($args[1]) && $args[0] === 'api' && $args[1] !== '') {
     header('Access-Control-Allow-Origin: *');
     header('Content-type: application/json');
-    echo json_api($args[2]);
+    echo json_api($args[1]);
     exit;
   }
 
   // Print template
-  echo get_template((!empty($args[1]) ? $args[1] : ''));
+  echo get_template((!empty($args[0]) ? $args[0] : ''));
