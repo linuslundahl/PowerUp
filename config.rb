@@ -2,12 +2,16 @@ require 'compass/import-once/activate'
 require 'compass-normalize'
 
 # Set this to the root of your project when deployed:
-http_path       = "/PowerUp/"
-css_dir         = "assets/stylesheets"
-fonts_dir       = "assets/fonts"
-sass_dir        = "assets/sass"
-images_dir      = "assets/images"
-javascripts_dir = "assets/javascripts"
+http_path        = "./"
+css_dir          = "assets/stylesheets"
+fonts_dir        = "assets/fonts"
+sass_dir         = "assets/sass"
+images_dir       = "assets/images"
+javascripts_dir  = "assets/javascripts"
+
+http_fonts_path  = '../fonts'
+http_images_path = '../images'
+
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

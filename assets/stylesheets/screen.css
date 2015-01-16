@@ -225,14 +225,14 @@ th {
     opacity: 1; } }
 @font-face {
   font-family: "Kontrapunkt Bob";
-  src: url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.eot?1421305224');
-  src: url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.eot?&1421305224#iefix') format('embedded-opentype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.eot?1421305224') format('embedded-opentype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.ttf?1421305224') format('truetype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.woff?1421305224') format('woff'), url('/PowerUp/assets/fonts/kontrapunkt_bob_bold-webfont.woff2?1421305224') format('woff2');
+  src: url('../fonts/kontrapunkt_bob_bold-webfont.eot?1421305224');
+  src: url('../fonts/kontrapunkt_bob_bold-webfont.eot?&1421305224#iefix') format('embedded-opentype'), url('../fonts/kontrapunkt_bob_bold-webfont.eot?1421305224') format('embedded-opentype'), url('../fonts/kontrapunkt_bob_bold-webfont.ttf?1421305224') format('truetype'), url('../fonts/kontrapunkt_bob_bold-webfont.woff?1421305224') format('woff'), url('../fonts/kontrapunkt_bob_bold-webfont.woff2?1421305224') format('woff2');
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: "Kontrapunkt Bob";
-  src: url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.eot?1421305224');
-  src: url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.eot?&1421305224#iefix') format('embedded-opentype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.eot?1421305224') format('embedded-opentype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.ttf?1421305224') format('truetype'), url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.woff?1421305224') format('woff'), url('/PowerUp/assets/fonts/kontrapunkt_bob_light-webfont.woff2?1421305224') format('woff2');
+  src: url('../fonts/kontrapunkt_bob_light-webfont.eot?1421305224');
+  src: url('../fonts/kontrapunkt_bob_light-webfont.eot?&1421305224#iefix') format('embedded-opentype'), url('../fonts/kontrapunkt_bob_light-webfont.eot?1421305224') format('embedded-opentype'), url('../fonts/kontrapunkt_bob_light-webfont.ttf?1421305224') format('truetype'), url('../fonts/kontrapunkt_bob_light-webfont.woff?1421305224') format('woff'), url('../fonts/kontrapunkt_bob_light-webfont.woff2?1421305224') format('woff2');
   font-weight: normal;
   font-style: normal; }
 body {

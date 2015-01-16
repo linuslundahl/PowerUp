@@ -1,8 +1,6 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /PowerUp/
-RewriteRule ^index\.php$ - [L]
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /PowerUp/index.php [L]
+RewriteRule ^([^?]*)$ ./index.php [NC,L,QSA]
 </IfModule>
